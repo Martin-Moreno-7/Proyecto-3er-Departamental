@@ -1,0 +1,165 @@
+html {
+  background: #000;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+  text-shadow: #09f;
+  background-color: black;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: aqua;
+}
+
+.villa {
+  background: #ccc;
+  background: radial-gradient(#eff1ff, #000);
+  font-family: system-ui;
+  font-size: 3rem;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.vill {
+  font-size: 2.5rem;
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white,
+    -1px 1px 0 white;
+
+  color: blue;
+  animation: wave 3s ease-in-out infinite;
+}
+
+button {
+  border: 0;
+  background-image: linear-gradient(100deg, #9500ff, #09f, #0dff);
+
+  border-radius: 35px;
+  color: black;
+  display: flex;
+  font-size: 20px;
+  padding: 2px;
+  cursor: pointer;
+  transition: 5ms;
+  margin-bottom: 20px;
+}
+
+button span {
+  background-color: white;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 3ms;
+}
+
+button :hover span {
+  background: none;
+}
+
+button :active {
+  transform: scale(0.9);
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.dinosaur {
+  background-color: rgb(184, 0, 92);
+  width: 100px;
+  height: 25px;
+  transition: transform 0.1s;
+}
+
+.jump {
+  transform: translateY(-50px);
+}
+.btn btn-primary btn-md {
+  color: blue;
+}
+
+.formulario {
+  position: absolute;
+  right: 30%;
+  transform: translate(-10%, 5%);
+  width: 400px;
+  background: #800080;
+  border-radius: 10px;
+}
+
+.formulario h2 {
+  text-align: center;
+  padding: 0 0 5% 0;
+  border-bottom: 1px solid #2e86c1;
+}
+
+.ec {
+  padding: 5emn 2em;
+  margin: 0px;
+  font-size: 1rem;
+}
+
+/*.ec:placeholder-shown + .message::after {
+  content: "Aun no has escrito  nada en el input";
+  display: block;
+  background-color: crimson;
+  padding: 1em;
+  color: white;
+  width: max-content;
+  margin: auto;
+}
+
+
+/*.ec:placeholder-shown {
+  background-color: #000;
+  color: white;
+}
+
+
+.ec:focus {
+  text-shadow: 0 0 10px #2e86c1;
+  background: yellow;
+  color: red;
+}*/
+
+.ec {
+  box-shadow: 0 0 20px #09f;
+}
+
+.formulario .ec {
+  position: relative;
+  border-bottom: 2px;
+  margin: 10px 0;
+}
+.username input {
+  width: 90%;
+  padding: 0 5px;
+  height: 30px;
+  font-size: 16px;
+  outline: none;
+}
+
+.formulario h2 {
+  text-shadow: 0 0 10px #00ffff;
+}
+.formulario h3 {
+  text-shadow: 0 0 10px #00ffff;
+}
+.ec:focus {
+  background: black;
+  color: #76d7c4;
+}
